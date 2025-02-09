@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/736x/bc/1f/e4/bc1fe41a8de78b18f3cab89c64a7dee5.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 20px;
+    margin-top: -200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+.expense-form input, .expense-form select, .expense-form button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+button.delete {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
